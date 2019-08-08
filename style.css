@@ -4,13 +4,22 @@ body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
   background-color: #50C7C7;
+  .fill {
+    background-img: url('http://source.upsplash.com/random/150x150');
+    position: relative;
+    height: 150px;
+    width:150px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
 
-}
+}}
 
 h1 {
   font-style: italic;
   color: #373fff;
 }
+
 .container1 {
     width: 100%;
     float: left;
@@ -43,4 +52,13 @@ h1 {
   padding-bottom: 5px;
   padding-left: 5px;
   font-size: 35px;
+}
+
+.empty {
+  display: inline-block;
+  height: 160px;
+  width: 160px;
+  margin: 10px;
+  border: 3px;
+  background-color: black;
 }
