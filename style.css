@@ -3,16 +3,62 @@
 body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
+  background-color: #50C7C7;
+
 }
 
 h1 {
   font-style: italic;
   color: #373fff;
 }
+.container {
+    width: 100%;
+    float: left;
+    border: solid 1px #50C7C7;
+    text-align: center;
+}
+.container0 {
+    width: 100%;
+    float: left;
+    border: solid 1px #50C7C7;
+    text-align: center;
+}
+.container00 {
+    width: 100%;
+    float: left;
+    border: solid 1px #50C7C7;
+    text-align: center;
+}
+.container1 {
+    width: 100%;
+    float: left;
+    border: solid 1px #50C7C7;
+    text-align: center;
+}
+.container2 {
+    width: 100%;
+    float: left;
+    border: solid 1px #50C7C7;
+    text-align: center;
+}
+.container button{
+    display: inline-block;
+}
+
 #play {
   background-color: lightblue;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  font-size: 35px;
 }
 
 #rule {
-  background-color: lightblue; 
+  background-color: lightblue;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  font-size: 35px;
 }
