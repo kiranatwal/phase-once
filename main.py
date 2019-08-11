@@ -3,12 +3,9 @@ import random
 colorList = ["red", "blue", "yellow", "green"]
 
 card = {
-    "color": colorList[random.randint(0,3)],
-    "number": 0#random.randint(0,12),
+    "color": colorList[random.randint(0,1)],
+    "number": random.randint(0,3),
 }
-
-
-# print(card["color"] +" "+ str(card["number"]))
 
 deck = {
     "red": 24,
@@ -30,20 +27,85 @@ deck = {
     "twelve" : 8,
 }
 
+
+
 def draw():
     return card["color"] +" "+ str(card["number"])
 
-if card["color"] == "red":
-    deck["red"] = deck["red"]-1
-elif card["color"] == "blue":
-    deck["blue"] = deck["blue"]-1
-elif card["color"] == "yellow":
-    deck["yellow"] = deck["yellow"]-1
-elif card["color"] == "green":
-    deck["green"] = deck["green"]-1
+for x in range(7):
+    hand=;
+    hand.append(draw());
+print hand;
+# hand = deal();
+# print(hand)
 
-if card["number"] == "0":
-    deck["zero"] == deck["zero"]-1
+# for cardKind in deck
+#     if cardKind == ""
+
+
+#print(draw())
+
+if card["color"] == "red" and card["number"] ==0:
+    deck["red"] = deck["red"]-1,
+    deck["zero"] = deck["zero"]-1
+
+elif card["color"] == "red" and card["number"] ==1:
+    deck["red"] = deck["red"]-1,
+    deck["one"] = deck["one"]-1
+
+elif card["color"] == "red" and card["number"] ==2:
+    deck["red"] = deck["red"]-1,
+    deck["two"] = deck["two"]-1
+
+elif card["color"] == "red" and card["number"] ==3:
+    deck["red"] = deck["red"]-1,
+    deck["three"] = deck["three"]-1
+
+elif card["color"] == "red" and card["number"] ==4:
+    deck["red"] = deck["red"]-1,
+    deck["four"] = deck["four"]-1
+
+# elif card["color"] == "red" and card["number"] ==5:
+#     deck["red"] = deck["red"]-1,
+#     deck["three"] = deck["three"]-1
+#
+# elif card["color"] == "red" and card["number"] ==6:
+#     deck["red"] = deck["red"]-1,
+#     deck[""] = deck[""]-1
+#
+# elif card["color"] == "red" and card["number"] ==7:
+#     deck["red"] = deck["red"]-1,
+#     deck[""] = deck[""]-1
+#
+# elif card["color"] == "red" and card["number"] ==8:
+#     deck["red"] = deck["red"]-1,
+#     deck[""] = deck[""]-1
+#
+# elif card["color"] == "red" and card["number"] ==9:
+#     deck["red"] = deck["red"]-1,
+#     deck[""] = deck[""]-1
+#
+# elif card["color"] == "red" and card["number"] ==10:
+#     deck["red"] = deck["red"]-1,
+#     deck[""] = deck[""]-1
+#
+# elif card["color"] == "red" and card["number"] ==11:
+#     deck["red"] = deck["red"]-1,
+#     deck[""] = deck[""]-1
+#
+# elif card["color"] == "red" and card["number"] ==12:
+#     deck["red"] = deck["red"]-1,
+#     deck[""] = deck[""]-1
+
+
+# elif card["color"] == "blue":
+#     deck["blue"] = deck["blue"]-1
+# elif card["color"] == "yellow":
+#     deck["yellow"] = deck["yellow"]-1
+# elif card["color"] == "green":
+#     deck["green"] = deck["green"]-1
+# if card["number"] == "0":
+#     deck["zero"] == deck["zero"]-1
 # elif card["number"] == "1":
 #     deck["one"] == deck["one"]-1
 # elif card["number"] == "2":
@@ -71,6 +133,6 @@ if card["number"] == "0":
 
 
 
-print(draw())
+
 # print(deck["blue"],deck["green"],deck["red"],deck["yellow"])
-print(deck["zero"])
+print(deck["zero"],deck["red"])
