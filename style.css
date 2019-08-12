@@ -66,34 +66,31 @@ h1 {
 .trash {
    background: url('') 0 0;
 }
-.logo {
+
+/* #yellow {
   position: fixed;
   bottom: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-/* .logo div {
-  /* justify-content: space-around; */
-
-}
-#landfill {
-  position: relative;
-  bottom: 0;
-  /* right: 0; */
+  right: 0;
   width: 150px;
 }
 
 #blue {
-  position: relative;
+  position: fixed;
   bottom: 0;
-  /* left: 0; */
-  width: 150px;
+  right: 0;
+  width: 400px;
 }
 
 #green {
-  position: relative;
+  position: fixed;
   bottom: 0;
-  /* left: 0; */
+  left: 0;
   width: 150px;
 }
+
+#red {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+} */
