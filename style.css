@@ -66,24 +66,34 @@ h1 {
 .trash {
    background: url('') 0 0;
 }
-
-#landfill {
+.logo {
   position: fixed;
   bottom: 0;
-  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+/* .logo div {
+  /* justify-content: space-around; */
+
+}
+#landfill {
+  position: relative;
+  bottom: 0;
+  /* right: 0; */
   width: 150px;
 }
 
 #blue {
-  position: fixed;
+  position: relative;
   bottom: 0;
-  right: 0;
-  width: 400px;
+  /* left: 0; */
+  width: 150px;
 }
 
 #green {
-  position: fixed;
+  position: relative;
   bottom: 0;
-  left: 0;
+  /* left: 0; */
   width: 150px;
 }
