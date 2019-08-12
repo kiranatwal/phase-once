@@ -3,7 +3,7 @@
 body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
-  background-color: #50C7C7;
+  background-color: white;
   .fill {
     background-img: url('http://source.upsplash.com/random/150x150');
     position: relative;
@@ -15,10 +15,6 @@ body {
 }}
 
 h1 {
-  font-style: italic;
-  color: #373fff;
-}
-h2 {
   font-style: italic;
   color: #373fff;
 }
@@ -58,6 +54,7 @@ h2 {
 }
 
 .empty {
+  background-color: white;
   display: inline-block;
   height: 160px;
   width: 160px;
@@ -68,6 +65,25 @@ h2 {
 
 .trash {
    background: url('') 0 0;
+   margin: 200px;
+   width: 100px;
+   height: 100px;
+}
+
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
 }
 
 /* #yellow {
@@ -76,21 +92,18 @@ h2 {
   right: 0;
   width: 150px;
 }
-
 #blue {
   position: fixed;
   bottom: 0;
   right: 0;
   width: 400px;
 }
-
 #green {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 150px;
 }
-
 #red {
   position: fixed;
   bottom: 0;

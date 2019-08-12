@@ -6,23 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel = "stylesheet" type = "text/css" href = "style.css">
-    <script>
-        function allowDrop(ev) {
-          ev.preventDefault();
-        }
-
-        function drag(ev) {
-          ev.dataTransfer.setData("text", ev.target.id);
-        }
-
-        function drop(ev) {
-          ev.preventDefault();
-          var data = ev.dataTransfer.getData("text");
-          ev.target.appendChild(document.getElementById(data));
-        }
-    </script>
   </head>
-
 
   <body>
     <h1>Game!</h1>
@@ -30,27 +14,28 @@
           <p>
           <div class = "row">
           <div class="empty" id="yellow">
-            <img src = "/Users/google/phase-once/recyling-bin-recycling-bins-vector-image-for-home-the-range-recycle-colour-malaysia-paper-cartoon.jpg" style="width:160px;height:200px;">
+            <img src = "recyling-bin-recycling-bins-vector-image-for-home-the-range-recycle-colour-malaysia-paper-cartoon.jpg" style="width:160px;height:200px;">
           </div>
           <div class="empty" id="blue">
-            <img src = "/Users/google/phase-once/recyling-bin-recycling-bins-vector-image-for-home-the-range-recycle-colour-malaysia-paper-cartoon (1).jpg" style ="width:160px;height:200px;">
-
+            <img src = "recyling-bin-recycling-bins-vector-image-for-home-the-range-recycle-colour-malaysia-paper-cartoon (1).jpg" style ="width:160px;height:200px;">
           </div>
           <div class="empty" id="green">
-            <img src = "/Users/google/phase-once/recyling-bin-recycling-bins-vector-image-for-home-the-range-recycle-colour-malaysia-paper-cartoon (2).jpg" style ="width:160px;height:200px;">
-
+            <img src = "recyling-bin-recycling-bins-vector-image-for-home-the-range-recycle-colour-malaysia-paper-cartoon (2).jpg" style ="width:160px;height:200px;">
           </div>
           <div class="empty" id="red">
-            <img src = "/Users/google/phase-once/1recyling-bin-recycling-bins-vector-image-for-home-the-range-recycle-colour-malaysia-paper-cartoon copy.jpg" style ="width:160px;height:200px;">
-          
+            <img src = "1recyling-bin-recycling-bins-vector-image-for-home-the-range-recycle-colour-malaysia-paper-cartoon copy.jpg" style ="width:160px;height:200px;">
           </div>
-          <div class="trash"></div>
+          <div id="mydiv">
+      <div id = "mydivheader"> <img style = "width:160px; height:160px;" src = "https://files.slack.com/files-pri/TLJ4BK3UY-FMBTR0EPR/17227538-group-of-various-brands-of-soda-drinks-in-aluminum-cans-isolated-on-white-with-clipping-path-brands-.jpg"></div>
+      </div>
+
         </div>
           </p>
         </div>
 
 
 
-    <script src="file://script.js"></script>
+    <script src="script.js"></script>
+
   </body>
 </html>
