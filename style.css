@@ -54,14 +54,13 @@ h1 {
   font-size: 35px;
 }
 
-#landfill {
+.empty {
   display: inline-block;
   height: 160px;
   width: 160px;
   margin: 20px;
   border-style: solid;
   border-radius: 10px;
-  background-image: url('https://images-na.ssl-images-amazon.com/images/I/51zLZbEVSTL._SL1200_.jpg');
 }
 
 .trash {
