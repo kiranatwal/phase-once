@@ -59,10 +59,31 @@ h1 {
   height: 160px;
   width: 160px;
   margin: 20px;
-  border-style: solid;
+  /* border-style: solid; */
   border-radius: 10px;
 }
 
 .trash {
    background: url('') 0 0;
+}
+
+#landfill {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 150px;
+}
+
+#blue {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+}
+
+#green {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 150px;
 }
