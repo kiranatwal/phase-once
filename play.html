@@ -13,26 +13,35 @@
         <div class = "container">
           <p>
           <div class = "row">
-          <div class="empty" id="yellow">
-            <img src = "recyling-bin-recycling-bins-vector-image-for-home-the-range-recycle-colour-malaysia-paper-cartoon.jpg" style="width:160px;height:200px;">
+          <div class="empty"  ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img id="yellow" value="paper" src = "recyling-bin-recycling-bins-vector-image-for-home-the-range-recycle-colour-malaysia-paper-cartoon.jpg" style="width:160px;height:200px;">
           </div>
-          <div class="empty" id="blue">
+          <div class="empty" id="blue" ondrop="drop(event)" ondragover="allowDrop(event)" value="plastic">
             <img src = "recyling-bin-recycling-bins-vector-image-for-home-the-range-recycle-colour-malaysia-paper-cartoon (1).jpg" style ="width:160px;height:200px;">
           </div>
-          <div class="empty" id="green">
+          <div class="empty" id="green" ondrop="drop(event)" ondragover="allowDrop(event)" value='glass'>
             <img src = "recyling-bin-recycling-bins-vector-image-for-home-the-range-recycle-colour-malaysia-paper-cartoon (2).jpg" style ="width:160px;height:200px;">
           </div>
-          <div class="empty" id="red">
-            <img src = "1recyling-bin-recycling-bins-vector-image-for-home-the-range-recycle-colour-malaysia-paper-cartoon copy.jpg" style ="width:160px;height:200px;">
+          <div class="empty" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img id="red" value="metal"src = "1recyling-bin-recycling-bins-vector-image-for-home-the-range-recycle-colour-malaysia-paper-cartoon copy.jpg" style ="width:160px;height:200px;">
           </div>
           <div id="mydiv">
-      <div id = "mydivheader"> <img style = "width:160px; height:160px;" src = "https://files.slack.com/files-pri/TLJ4BK3UY-FMBTR0EPR/17227538-group-of-various-brands-of-soda-drinks-in-aluminum-cans-isolated-on-white-with-clipping-path-brands-.jpg"></div>
-      </div>
+    <div id="mydivheader" draggable="true" ondragstart="drag(event)"><img id="metal" value="metal"style="width:160px;height:160px;" src="https://jlbrooks.co.uk/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/f/a/fanta_orange_330ml.jpg"></div>
+  </div>
+  <!-- <div id="div2" class="pic">
+<div id="mydivheader" ><img style="width:160px;height:160px;" src="https://jlbrooks.co.uk/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/f/a/fanta_orange_330ml.jpg"></div>
+</div> -->
 
         </div>
           </p>
         </div>
-
+      <!-- <div class="empty">
+        <div class="fill" draggable="true"></div>
+      </div>
+      <div class="empty"></div>
+      <div class="empty"></div>
+      <div class="empty"></div>
+      <div class="empty"></div> -->
 
 
     <script src="script.js"></script>
